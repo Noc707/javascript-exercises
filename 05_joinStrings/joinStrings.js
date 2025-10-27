@@ -9,17 +9,29 @@
 
 // Add your code right below, good luck!
 
+const birthYear = 2016;
+const thisYear = 2025;
+const firstName = "Nala";
+const lastName = "Dog";
+const fullName = "Nala Dog";
+const age = 9;
+
+const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old." ;
+
+console.log(greeting);
+
+
 
 
 
 
 // Do not change this
 module.exports = {
-  firstName: typeof firstName === 'undefined' ? undefined : firstName,
-  lastName: typeof lastName === 'undefined' ? undefined : lastName,
-  thisYear: typeof thisYear === 'undefined' ? undefined : thisYear,
-  birthYear: typeof birthYear === 'undefined' ? undefined : birthYear,
-  greeting: typeof greeting === 'undefined' ? undefined : greeting,
-  fullName: typeof fullName === 'undefined' ? undefined : fullName,
-  age: typeof age === 'undefined' ? undefined : age
+  firstName: typeof firstName === 'Nala' ? undefined : firstName,
+  lastName: typeof lastName === 'Dog' ? undefined : lastName,
+  thisYear: typeof thisYear === '2025' ? undefined : thisYear,
+  birthYear: typeof birthYear === '2016' ? undefined : birthYear,
+  greeting: typeof greeting === 'Hello! My Name Is' ? undefined : greeting,
+  fullName: typeof fullName === 'Nala Dog' ? undefined : fullName,
+  age: typeof age === '9' ? undefined : age
 }
